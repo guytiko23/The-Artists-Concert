@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-image: url(photos/show1.jpg);
+    background-size: cover;  
+  }
+ 
+h1 {
+    font-size: 80px;
+    color: #DBEDF3;
+    font-style: italic;
+  }
+  /*change button when being pressed*/
+  .pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .Coldplay {
+    background-image: url(photos/coldplay.jfif);
+    background-size: cover;
+  }
+  
+  .Maroon5 {
+    background-image: url(photos/maroon5.jfif);
+    background-size: cover;
+  }
+  
+  .BrunoMars {
+    background-image: url(photos/brunomars.jfif);
+    background-size: cover;
+  }
+  
+  .Eminem {  
+    background-image: url(photos/eminem.jfif);
+    background-size: cover;
+  }
+  
+  .DireStraits {
+    background-image: url(photos/direstraits.jfif);
+    background-size: cover;
+  }
+  
+  .Redhotchilipeppers {
+    background-image: url(photos/redhot.jfif);
+    background-size: cover;
+  }
+
+  .Avicii {
+    background-image: url(photos/avicii.jfif);
+    background-size: cover;
+  }
+  /*effect the container of all the songs*/
+  .set {
+    margin: 20% auto;
+    animation: moveRightLeft 30s linear infinite; /* Adjust the duration as needed */
+  }
+  .song{
+    outline: none;
+    border: 10px solid #4b6b6a;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 3;
+    font-weight: 700;
+    color: #65bbe3;
+    text-shadow: 6px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  /*makes the loop animation*/
+  @keyframes moveRightLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  
